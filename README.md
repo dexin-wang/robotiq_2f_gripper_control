@@ -16,8 +16,12 @@ A package for facilitating the use of Robotiq Gripper in ROS.
 
 (2) After running the launch file, control the movement of robotiq gripper by sending `std_msgs/String` messages to the topic `/robotiq/gripper_cmd`, Commonly used commands correspond to the following messages:
 > Reset: r
+> 
 > Activate: a
+> 
 > Close: c
+> 
 > Open: o
+> 
 > Opening width: 0-255
 > 
